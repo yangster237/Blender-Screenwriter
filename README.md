@@ -2,7 +2,7 @@
 
 A comprehensive screenwriting tool for Blender 4.0+. Write standard screenplay format directly in Blender's Text Editor, import/export Fountain files, and sync your script to Blender Scenes.
 
-**Author**: Li Zheng Yang
+**Author**: Zheng Yang
 
 ## Features
 
