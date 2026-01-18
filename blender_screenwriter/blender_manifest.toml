@@ -1,26 +1,20 @@
-[maintainer]
-name = "Zheng Yang"
-email = "" # Optional, but good to have if you want
+schema_version = "1.0.0"
 
-[project]
 id = "screenwriter"
+version = "1.0.0"
 name = "Screenwriter"
 tagline = "Screenplay formatting and syncing tools for Blender."
 maintainer = "Zheng Yang"
-license = "SPDX:GPL-3.0-or-later"
-version = "1.0.0"
 type = "add-on"
-blender_version_min = "4.0.0"
-platforms = ["windows-x64", "macos-arm64", "macos-x64", "linux-x64"]
-
-[url]
+license = "SPDX:GPL-3.0-or-later"
 website = "https://github.com/yangster237/Blender-Screenwriter"
-source = "https://github.com/yangster237/Blender-Screenwriter"
+
+[blender]
+version_min = "4.0.0"
 
 [permissions]
 files = "Reading and writing .fountain files"
-network = "No network access required"
-clipboard = "No clipboard access required"
+# Network and clipboard not needed, so omitting them is cleaner or we can leave optional
 
 [build]
 paths_exclude_pattern = [
