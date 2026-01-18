@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Screenwriter",
-    "author": "Li Zheng Yang",
+    "author": "Zheng Yang",
     "version": (1, 0),
     "blender": (4, 0, 0),
     "location": "Text Editor > UI > Screenwriter",
